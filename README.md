@@ -145,6 +145,11 @@ npm install -g @anthropic-ai/claude-code@latest
 brew install --cask claude-code
 ```
 
+Those one-liners that pipe a download into a shell are Anthropic's and Nous Research's own
+published installers, quoted verbatim from their docs — read them before you run them, as
+you should with any installer. Every method above is upstream-official; none is a wrapper
+this project wrote.
+
 Verify — open a **new** terminal so `PATH` is refreshed:
 
 ```bash

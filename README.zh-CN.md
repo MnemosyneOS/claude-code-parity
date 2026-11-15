@@ -143,6 +143,10 @@ npm install -g @anthropic-ai/claude-code@latest
 brew install --cask claude-code
 ```
 
+上面那些「把下载内容直接喂给 shell」的一行命令，是 Anthropic 与 Nous Research 自己发布在官方
+文档里的安装器，此处逐字引用——运行前该像对待任何安装脚本一样先读一遍。以上每种方式都是上游
+官方的，没有一个是本项目自己包的一层脚本。
+
 验证——请**新开**一个终端，让 `PATH` 刷新：
 
 ```bash

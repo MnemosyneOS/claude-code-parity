@@ -90,12 +90,17 @@ out of the platform package). It never touches this plugin's own files — it do
 a `plugin.js`, does not download a release, does not rewrite itself. The plugin's own
 updates reach users through a SHA-bump PR, exactly as the rule intends.
 
-**"`hermes plugins validate` prints two warnings."**
-Yes, both are `⚠`, not `✗`:
+**"`hermes plugins validate` prints three warnings."**
+All are `⚠`, not `✗`:
 
 - `no __init__.py — capability probe skipped (manifest-only plugin)`. The agent half is a
   dashboard plugin (`dashboard/manifest.json` + `dashboard/plugin_api.py`), which does not
   register tools or hooks, so there is nothing to probe. `capabilities` is empty on purpose.
+- `security scan caution: curl_pipe_shell (README.md:…)`. The README quotes the **official**
+  install one-liners for Claude Code and for Hermes Agent, verbatim from their own docs —
+  `curl -fsSL … | bash` and `irm … | iex`. They are the upstream installer commands, not a
+  wrapper this project wrote, and a from-zero install guide that omits them would be worse
+  documentation. The README says so next to the commands.
 - `private core imports` — `hermes_cli.providers.resolve_provider_full`,
   `hermes_cli.inventory.load_picker_context`, `hermes_cli.inventory.build_model_options_payload`,
   `hermes_cli.auth.resolve_api_key_provider_credentials`,

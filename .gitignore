@@ -22,3 +22,6 @@ desktop.ini
 .release.json
 .release.out
 .repo.json
+
+# Local verification scratch (raw copies pulled back from the remote)
+.verify/
