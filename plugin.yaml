@@ -1,0 +1,23 @@
+name: claude-code-parity
+label: Claude Code Desktop
+kind: standalone
+version: 2.2.0
+author: MnemosyneOS
+license: MIT
+homepage: https://github.com/MnemosyneOS/claude-code-parity
+requires_hermes: ">=0.21.0"
+tags:
+  - claude-code
+  - cli
+  - workspace
+  - approvals
+  - mobile
+  - i18n
+description: >-
+  A graphical, non-terminal Claude Code workspace inside Hermes Desktop. Every
+  local CLI flag and settings.json key lands in one schema-driven settings page;
+  tool calls are approved in-plugin over an MCP permission bridge (Y / A / N) or
+  from a phone on the same Wi-Fi; attachments, a live thinking/tool chain, full
+  session history with archive and trash, one-click CLI upgrade, and any model
+  already authenticated in Hermes. Ships English and Chinese UI with an
+  in-app language switch.

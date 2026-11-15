@@ -1,0 +1,19 @@
+# Files this plugin writes at runtime, plus the usual noise.
+.runtime/
+__pycache__/
+*.py[cod]
+*.egg-info/
+node_modules/
+.venv/
+venv/
+
+# Local machine state that must never be published
+*.log
+.env
+.env.*
+.gh_token.txt
+.gh_device_state.json
+.claude/
+.DS_Store
+Thumbs.db
+desktop.ini

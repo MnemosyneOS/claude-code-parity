@@ -1,0 +1,9 @@
+{
+  "name": "claude-code-parity",
+  "label": "Claude Code Desktop",
+  "description": "Graphical Claude Code workspace in Hermes Desktop: the full CLI flag and settings.json surface, in-plugin and on-phone tool approvals, attachments, one-click upgrade, a live thinking/tool chain, and every model Hermes already has. English and Chinese UI.",
+  "icon": "Code",
+  "version": "2.2.0",
+  "tab": { "hidden": true },
+  "api": "plugin_api.py"
+}

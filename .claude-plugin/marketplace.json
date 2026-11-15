@@ -1,0 +1,21 @@
+{
+  "name": "mnemosyneos",
+  "owner": {
+    "name": "MnemosyneOS",
+    "url": "https://github.com/MnemosyneOS"
+  },
+  "description": "MnemosyneOS plugins for Claude Code.",
+  "plugins": [
+    {
+      "name": "claude-code-parity",
+      "displayName": "Hermes Claude Bridge",
+      "source": "./integrations/claude-code",
+      "version": "2.2.0",
+      "description": "Teaches Claude Code how to drive the Claude Code Desktop workspace this repo ships for Hermes Desktop: the loopback bridge, the model catalogue, the turn/poll event stream, and the approval flow. The Hermes-side plugin itself installs with `hermes plugins install MnemosyneOS/claude-code-parity`.",
+      "homepage": "https://github.com/MnemosyneOS/claude-code-parity",
+      "repository": "https://github.com/MnemosyneOS/claude-code-parity",
+      "license": "MIT",
+      "keywords": ["hermes", "claude-code", "bridge", "local-models", "desktop"]
+    }
+  ]
+}
