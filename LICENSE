@@ -19,12 +19,3 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
-
----
-
-Claude Code is a product of Anthropic. This plugin is an independent front end
-that drives a locally installed Claude Code CLI; it is not affiliated with,
-endorsed by, or supported by Anthropic. "Claude" and "Claude Code" are
-trademarks of Anthropic, PBC, used here only to describe what the plugin talks
-to. The name "claude-code-parity" describes an interface goal, not a claim of
-feature parity with any specific release.

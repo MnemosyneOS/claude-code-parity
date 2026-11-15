@@ -498,4 +498,4 @@ MIT — see [LICENSE](LICENSE).
 Claude and Claude Code are trademarks of Anthropic, PBC. This project is an independent
 interface to the Claude Code CLI and is not affiliated with, endorsed by, or sponsored by
 Anthropic. Hermes and Hermes Agent are products of Nous Research; this plugin is a
-third-party plugin for that host.
+third-party plugin for that host. The full notice is in [NOTICE](NOTICE).

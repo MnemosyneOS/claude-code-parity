@@ -17,3 +17,8 @@ venv/
 .DS_Store
 Thumbs.db
 desktop.ini
+
+# Token / state written by the device-flow helper
+.release.json
+.release.out
+.repo.json

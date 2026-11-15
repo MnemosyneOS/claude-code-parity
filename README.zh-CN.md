@@ -466,4 +466,4 @@ MIT，见 [LICENSE](LICENSE)。
 
 Claude 与 Claude Code 是 Anthropic, PBC 的商标。本项目是 Claude Code CLI 的独立接口，与
 Anthropic 无隶属、无背书、无赞助关系。Hermes 与 Hermes Agent 是 Nous Research 的产品；
-本插件是该宿主的第三方插件。
+本插件是该宿主的第三方插件。完整声明见 [NOTICE](NOTICE)。

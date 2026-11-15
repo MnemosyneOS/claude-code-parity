@@ -1,0 +1,22 @@
+# Notice
+
+The software in this repository is licensed under the MIT License; see `LICENSE`.
+
+## Trademarks
+
+**Claude** and **Claude Code** are trademarks of Anthropic, PBC.
+
+This project is an independent front end that drives a locally installed Claude Code CLI.
+It is not affiliated with, endorsed by, or sponsored by Anthropic. The names are used only
+to describe what the software talks to. The plugin identifier `claude-code-parity` describes
+an interface goal — the plugin exposes the CLI's own flag and `settings.json` surface — and
+is not a claim of feature parity with any specific release.
+
+**Hermes** and **Hermes Agent** are products of Nous Research. This is a third-party plugin
+for that host, distributed independently of it.
+
+## Third-party components
+
+No third-party source code is vendored in this repository. The plugin runs the Claude Code
+CLI that the user installs separately, and reads the model credentials that the user has
+already configured in Hermes. Neither is redistributed here.
